@@ -68,3 +68,39 @@ header{background: rgba(229, 84, 115, 0.1);}
     border: none;
     border-radius: 5px;
 }
+
+.featured-image-container{
+    margin: 0 auto;
+    height: 650px;
+    width: 90%;
+    /* border: 2px solid red; */
+}
+
+
+.featured-title-container{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    /* height: 250px; */
+    margin: 0 auto;
+}
+
+.featured-images{
+    display: flex;
+    gap: 20px;
+    }
+
+
+.triClass{
+    display: flex;
+    width: 30%;
+    height: 530px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+
+    background: rgba(167, 33, 98, 0.15);
+}
